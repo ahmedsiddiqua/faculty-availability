@@ -55,8 +55,8 @@ button.login:hover {
     
 }
 input {
-  width: 200px;       /* Set a fixed width */
-  height: 35px;       /* Set height to match */
+  width: 200px;       
+  height: 35px;      
   padding: 5px 10px;
   font-size: 16px;
   box-sizing: border-box;
@@ -65,7 +65,7 @@ input {
 }
 #status-list {
   display: flex;
-  flex-wrap: wrap; /* allows multiple cards in a row */
+  flex-wrap: wrap; 
   justify-content: center;
   gap: 15px;
   max-width: 1000px;
@@ -84,29 +84,27 @@ input {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-
-    .status-icon {
-      width: 24px;
-      height: 24px;
-    }
-    button#reload {
-     background-color: #D9D9D9;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 3px;
-    font-family: 'Po';
-    font-size: 16px;
-    }
-    button#reload:hover{
-
-    background-color: #759b5c;
-    color: #16250d;
-    border: #D9D9D9;
+.status-icon {
+  width: 24px;
+  height: 24px;
+}
     
+button#reload {
+  background-color: #D9D9D9;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 3px;
+  font-family: 'Po';
+  font-size: 16px;
+}
 
-    }
+button#reload:hover{
+  background-color: #759b5c;
+  color: #16250d;
+  border: #D9D9D9;
+}
